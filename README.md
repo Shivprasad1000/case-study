@@ -1,7 +1,8 @@
-Write a kubernetes (preferably helm) template that deploys nginx 
-with custom configuration and exposes services as NodePort -
+Write a kubernetes (preferably helm) template that deploys nginx with custom configuration and exposes services as NodePort -
 
 followed below commands, to setup helm and nginx.
+
+------------------------------------------------------------------------------------------------------------
 wget https://get.helm.sh/helm-v3.5.0-linux-amd64.tar.gz
 tar -xzf helm-v3.5.0-linux-amd64.tar.gz
 mv ./linux-amd64/helm /usr/local/bin/
